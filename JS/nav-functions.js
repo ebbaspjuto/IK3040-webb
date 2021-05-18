@@ -4,15 +4,15 @@ console.log('Hej');
 // code for functions in sidenav
 
 // event-listener to links in menu
-document.getElementById("sidenav").addEventListener("click", viewSidenav);
+document.getElementById("burger").addEventListener("click", showSidenav);
+document.getElementById("sidenav").addEventListener("click", hideSidenav);
 
-function viewSidenav() {
+function hideSidenav() {
     document.getElementById("sidenav").style.display="none";
 };
 
-// DocumentFragment.getElementById("nav-burger").addEventListner("click", showSidenav);
 
-// function showSidenav(){
-//     alert('Hej')
-// }
+function showSidenav(){
+    document.getElementById("sidenav").style.display="inline";
+}
 

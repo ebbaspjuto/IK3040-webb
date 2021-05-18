@@ -1,6 +1,8 @@
+
+
 .fas{
     color: black;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #sidenav{
@@ -10,14 +12,9 @@
     top: 0px; 
     left: 0px;
     z-index: 1;
-    /* top: 30;
-    left: 30; */
     background-color: #383E46;
     overflow-x: hidden;
-    /* padding-top: 200px; */
-    /* padding-left: 30px; */
-    /* margin-top: 100px; */
-    /* border-right: 3px solid black; */
+    display: none;
 }
   
     /* style top-info */
@@ -79,12 +76,9 @@ nav{
     color: #C2C7CA;
     display: block;
     border: 0.5px solid #1E252B;
-    /* border: none; */
-    /* background: none; */
     width:100%;
     text-align: left;
     cursor: pointer;
-    /* outline: none; */
 }
   
   /* On mouse-over */
@@ -92,21 +86,3 @@ nav{
     color: #fff;
     background-color: #48A0B1;
 }
-  
-  
-
-
-
- 
-  /* Main content */
-  /* .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
-    /* font-size: 20px; /* Increased text to enable scrolling */
-    /*padding: 0px 10px;
-  } */
-
-  /* .msButton {
-    background-color: #fff;
-    color: #457292;
-    align-items: right;
-} */
