@@ -3,8 +3,27 @@ html {
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
+    font-size: 16px;
 }
 
 main{
     width: 75%;
+    margin: auto;
+    margin-top: 5vh;
 }
+/* style for top-headings */
+#topheading, #heading-underline{
+    width: 95%;
+    margin: auto;
+}
+
+#topheading{
+    font-size: 1.6rem;
+    color: rgb(73, 73, 73);
+    padding-bottom: 10px;
+    padding-top: 30px; 
+}
+
+#heading-underline{
+    border: 0.5px solid #BABABA;
+} 
