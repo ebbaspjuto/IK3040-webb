@@ -73,6 +73,7 @@ nav{
     font-family: 'Nunito', sans-serif;
     color: #C2C7CA;
     display: block;
+    border: 0.5px solid #1E252B;
     /* border: none; */
     /* background: none; */
     width:100%;
