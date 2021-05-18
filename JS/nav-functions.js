@@ -10,5 +10,9 @@ function viewSidenav() {
     document.getElementById("sidenav").style.display="none";
 };
 
+// DocumentFragment.getElementById("nav-burger").addEventListner("click", showSidenav);
 
+// function showSidenav(){
+//     alert('Hej')
+// }
 
