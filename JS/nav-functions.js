@@ -1,18 +1,12 @@
+// test
 console.log('Hej');
 
-// $(function(){
-//     $('#sidenav-placeholder').load('../HTML/nav-reuse.html');
-// });
-
+// code for functions in sidenav
 
 // event-listener to links in menu
 document.getElementById("sidenav").addEventListener("click", viewSidenav);
 
 function viewSidenav() {
-    alert('Heja mig');
+    document.getElementById("sidenav").style.display="none";
 };
-
-
-
-
 
