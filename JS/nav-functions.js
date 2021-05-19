@@ -1,6 +1,3 @@
-// test
-console.log('Hej');
-
 // code for functions in sidenav
 
 // event-listener to links in menu

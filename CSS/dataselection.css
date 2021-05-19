@@ -1,0 +1,17 @@
+#step-one-holder{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    background-color: white;
+}
+
+.button-holder{
+    width: 95%;
+    margin: auto;
+}
+
+#button-step-one{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 0.8rem;
+}
