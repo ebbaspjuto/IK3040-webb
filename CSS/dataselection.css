@@ -3,6 +3,7 @@
     height: 400px;
     margin: auto;
     background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14);
 }
 
 .button-holder{
@@ -27,11 +28,15 @@
     justify-content: right;
 }
 
-input{
+input[type="date"]{
     padding: 7px 45px 7px 45px;
     border-radius: 3px;
     border: 0.5px solid #00A3B4;
     font-size: 1rem;
+}
+
+input[type="date"]:focus{
+    background-color: #f0fcff;;
 }
 
 .datepick-holder{
@@ -44,14 +49,22 @@ input{
     padding: 5px;
 }
 
-button[type="sumbit"]{
-    float: right;
-    margin-right: 40px;;
-}
 
 /* style info */
 
 .test-info{
     margin-top: 45px;
+    margin-bottom: 45px;
 }
 
+.test-info input{
+    margin-right: 5px;
+}
+
+
+button[type="sumbit"]{
+    float: right;
+    margin-right: 40px;
+    padding: 15px 45px;
+    font-size: 1rem;
+}

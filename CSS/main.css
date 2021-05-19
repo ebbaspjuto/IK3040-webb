@@ -47,4 +47,12 @@ button:hover, .buttontarget{
     background-color: #48A0B1;
 }
 
+/* style for checkboxes */
 
+input[type="checkbox"]{
+    font-family: arial;
+}
+
+.testinfo input{
+    color: red;
+}
