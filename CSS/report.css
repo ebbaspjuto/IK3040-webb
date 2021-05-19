@@ -5,10 +5,6 @@
     background-color: white;
 }
 
-#report-types{
-    
-}
-
-#report-types-right{
-    display:flexbox;
+.report-types-right{
+    display: ;
 }
