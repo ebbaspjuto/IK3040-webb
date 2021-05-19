@@ -30,6 +30,16 @@ main{
     border: 0.5px solid #BABABA;
 } 
 
+/* style for underheadings */
+#underheading{
+    width: 80%;
+    margin: auto;
+    font-size: 1.6rem;
+    color: rgb(73, 73, 73);
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
 /* style for all buttons */
 button{
     border: none;
