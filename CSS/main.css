@@ -14,19 +14,19 @@ main{
 }
 
 /* style for top-headings */
-#topheading, #heading-underline{
+.topheading, .heading-underline{
     width: 95%;
     margin: auto;
 }
 
-#topheading{
+.topheading{
     font-size: 1.6rem;
     color: rgb(73, 73, 73);
     padding-bottom: 10px;
     padding-top: 30px; 
 }
 
-#heading-underline{
+.heading-underline{
     border: 0.5px solid #BABABA;
 } 
 
@@ -37,7 +37,7 @@ button{
     background-color: #D1EAEF;
 }
 
-button:hover{
+button:hover, .buttontarget{
     color: white;
     background-color: #48A0B1;
 }
