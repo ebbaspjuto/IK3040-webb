@@ -29,3 +29,15 @@ main{
 #heading-underline{
     border: 0.5px solid #BABABA;
 } 
+
+/* style for all buttons */
+button{
+    border: none;
+    border-radius: 6px;
+    background-color: #D1EAEF;
+}
+
+button:hover{
+    color: white;
+    background-color: #48A0B1;
+}
