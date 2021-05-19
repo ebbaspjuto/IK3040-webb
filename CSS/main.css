@@ -31,13 +31,13 @@ main{
 } 
 
 /* style for underheadings */
-#underheading{
+.underheading{
     width: 80%;
     margin: auto;
     font-size: 1.6rem;
     color: rgb(73, 73, 73);
     padding-bottom: 10px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 /* style for all buttons */

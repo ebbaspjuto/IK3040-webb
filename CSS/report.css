@@ -1,6 +1,14 @@
-#step-one-holder {
+#step-one-holder{
     width: 100%;
-    height: 200px;
+    height: 350px;
     margin: auto;
     background-color: white;
+}
+
+#report-types{
+    
+}
+
+#report-types-right{
+    display:flexbox;
 }
