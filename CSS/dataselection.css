@@ -10,6 +10,7 @@
     margin: auto;
 }
 
+/* style buttons and input */
 .choose-buttons{
     margin-top: 0px;
     padding: 10px;
@@ -27,7 +28,7 @@
 }
 
 input{
-    padding: 10px 45px 10px 45px;
+    padding: 7px 45px 7px 45px;
     border-radius: 3px;
     border: 0.5px solid #00A3B4;
     font-size: 1rem;
@@ -43,11 +44,14 @@ input{
     padding: 5px;
 }
 
-.test-info{
-    width: 90%;
-    margin-top: 30px;
+button[type="sumbit"]{
+    float: right;
+    margin-right: 40px;;
 }
 
-#date-button button{
-    float: right;
+/* style info */
+
+.test-info{
+    margin-top: 45px;
 }
+
