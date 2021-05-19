@@ -20,26 +20,34 @@
       <hr class="heading-underline">
 
       <div class="button-holder">
-        <button type="button" class="button-step-one">Datumintervall</button>
-        <button type="button" class="button-step-one">Test inom projekt</button>
-        <button type="button" class="button-step-one">Testnummer från samtliga tester</button>
+        <button type="button" class="choose-buttons">Datumintervall</button>
+        <button type="button" class="choose-buttons">Test inom projekt</button>
+        <button type="button" class="choose-buttons">Testnummer från samtliga tester</button>
       </div>
-    </section>
-
-      <!-- <input type="date">
-      <input type="date"> -->
       
-      <!-- <p>Test gjorda inom datumintervall:</p>
-      <input type="checkbox">Test 1</input>
-      <input type="checkbox">Test 2</input>
-      <input type="checkbox">Test 3</input>
+      <div id="date-button">
 
-      <button type="button">Vidare till urval</button> -->
+        <div class="datepick-holder">
+          <input type="date" title="from-date">
+          <p>-</p>
+          <input type="date" title="to-date">
+        </div>
+
+        <div class="test-info">
+          <p>Test gjorda inom datumintervall:</p>
+          <input type="checkbox">Test 1</input>
+          <input type="checkbox">Test 2</input>
+          <input type="checkbox">Test 3</input>
+        </div>
+
+        <button type="sumbit" class="choose-buttons">Vidare till urval</button>
+      
+    </section>
 
     
   </main>
 <!--import jQuery-->
 <script src="../JS/nav-reuse.js"></script>
-<script src="../JS/dataselections-functions.js"></script>
+<script src="../JS/buttons-functions.js"></script>
 </body>
 </html>
