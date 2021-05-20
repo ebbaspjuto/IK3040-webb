@@ -1,24 +1,26 @@
 // functions buttons
 
-const CHOOSE_BUTTONS = "choose-button";
+const CHOOSE_BUTTON = "choose-button";
+
 
 // all buttons
 const buttons = document.getElementsByTagName("button");
 
 // choose one button
-const chooseButtons = document.getElementsByClassName(CHOOSE_BUTTONS)
+const chooseButtons = document.getElementsByClassName(CHOOSE_BUTTON)
 
 
 
 for(let i = 0; i < buttons.length; i++ ) {
 buttons[i].addEventListener("click", buttonStepOne);
 }
+
 function buttonStepOne(event){
     const button = event.target;
     if (button.classList.contains("buttontarget")){
         button.classList.remove("buttontarget")
     } else {
-        if (button.classList.contains(CHOOSE_BUTTONS)){
+        if (button.classList.contains(CHOOSE_BUTTON)){
             for (let i=0; i<chooseButtons.length; i++){
                 chooseButtons[i].classList.remove("buttontarget");
             }
@@ -26,4 +28,5 @@ function buttonStepOne(event){
         button.classList.add("buttontarget");
     }
 };
+
 

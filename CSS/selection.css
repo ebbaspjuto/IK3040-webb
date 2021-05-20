@@ -43,8 +43,9 @@
     width: 30%;
 }
 
-.selected-choices{
+#selected-choice{
     width: 70%;
+    min-width: 70%;
     background-color:rgb(255, 255, 255);
 }
 

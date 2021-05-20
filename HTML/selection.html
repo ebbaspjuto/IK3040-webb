@@ -33,13 +33,13 @@
                     <button type="button" class="selection choose-button">Yrke</button> 
                     <button type="button" class="selection choose-button">Yrke(äldre)</button>
                     <button type="button" class="selection choose-button">Sysselsättning</button>
-                    <button type="button" class="selection choose-button">Ålder/kön</button>
+                    <button type="button" class="selection choose-button" onclick="ageGender()">Ålder/kön</button>
                     <button type="button"class="selection choose-button">Frågeformulär</button>
                     <button type="button" class="selection choose-button">Mätvärden</button>
                     <button type="button" class="selection choose-button">Åtgärdsgrupper m.m.</button> 
                     <button type="button" class="selection choose-button">KPC (Konditionstest på cykel)</button>
                     <button type="button" class="selection choose-button">BLP (Blodprofil)</button> 
-                    <button type="button" class="selection choose-button">APP (Arbetsplatsprofil)</button> 
+                    <button type="button" class="selection choose-button" onclick="app()">APP (Arbetsplatsprofil)</button> 
                     <!--radera här efter-->
                     <!-- <button type="button" class="selection choose-buttons">Kriterier</button>
                     <button type="button" class="selection choose-buttons">Rapportinställningar</button>
@@ -57,39 +57,13 @@
                     <button type="button" class="selection choose-buttons">BLP (Blodprofil)</button> 
                     <button type="button" class="selection choose-buttons">APP (Arbetsplatsprofil)</button> -->
                 </nav>
+                
 
-                <!--pop ups when selected-->
-                <section class="selected-choices">
-                    <h2 class="selected-heading">Ålder/kön</h2>
-
-                    <div id="choice-1">
-                        <label>Kön:</label></br>
-                        <button type="button" class="choice buttontarget" name="kvinnor">Kvinnor</button>
-                        <button type="button" class="choice buttontarget" name="män">Män</button>
-                        <button type="button" class="choice buttontarget" name="ej-angivet">Ej angivet</button>
-                    </div>
-                    <hr class="heading-underline">
-                    <div id="choice-2">
-                        <label>Ålder vid testens genomförande:</label></br>
-                        <input type="date" title="from-date" class="input-date"> 
-                        <p>till</p>
-                        <input type="date" title="to-date" class="input-date">
-                    </div>
-                    <hr class="heading-underline">
-                    <div id="choice-3">
-                        <label>Födelsedatum</label></br>
-                        <input type="date" title="from-date" class="input-date">
-                        <p>till</p>
-                        <input type="date" title="to-date" class="input-date">
-                    </div>
-                    <hr class="heading-underline">
-                    <div id="choice-4">
-                        <label>Civiltillstånd:</label></br>
-                        <button type="button" class="choice buttontarget" name="Sammanboende">Sammanboende</button>
-                        <button type="button" class="choice buttontarget" name="Ensamboende">Män</button>
-                        <button type="button" class="choice buttontarget" name="Har hemmaboende barn">Ej angivet</button>
-                    </div>
+                <!--selected choice start-->
+                <section id="selected-choice">
                 </section>
+                <!--selected choice ends-->
+                
             </div> 
 
         </section>
@@ -97,5 +71,6 @@
     </main>
 <script src="../JS/nav-reuse.js"></script>
 <script src="../JS/buttons-functions.js"></script>
+<script src="../JS/selection-functions.js"></script>
 </body>
 </html>
