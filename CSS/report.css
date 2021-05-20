@@ -5,6 +5,15 @@
     background-color: white;
 }
 
+#report-types{
+    display:flex;
+    justify-content: center;
+}
+
+.report-types-left{
+    background-color: chartreuse;
+}
+
 .report-types-right{
-    display: ;
+    background-color:crimson;
 }
