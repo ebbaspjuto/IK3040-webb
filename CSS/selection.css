@@ -9,12 +9,10 @@
     color: black
 }
 
-button[type="sumbit"]{
+/* button[type="sumbit"]{
     padding: 10px 20px;
     font-size: 1rem;
-}
-
-
+} */
 
 #selection-container{
     width: 100%;
@@ -22,6 +20,8 @@ button[type="sumbit"]{
     background-color: white;
     color: black;
 }
+
+/* style selection-nav */
 
 #selection-types{
     display: flex;
@@ -38,10 +38,11 @@ button[type="sumbit"]{
     position: left;
 }
 
-.odd {
+#selection-types button:nth-child(odd){
     background-color: #fff;
 }
 
-.even {
+#selection-types button:nth-child(even){
     background-color: #f8f8f8;
 }
+
