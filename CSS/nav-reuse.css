@@ -58,7 +58,7 @@ p{
     line-height: 0%;
 }
 
-hr:last-of-type{
+#sidenav > hr:last-of-type{
     margin-bottom: 25px;
 }
 
