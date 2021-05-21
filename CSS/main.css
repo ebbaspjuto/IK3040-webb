@@ -52,7 +52,7 @@ button{
     border: none;
     border-radius: 6px;
     background-color: #D1EAEF;
-    font-size: 1rem;  
+    font-size: 1rem;
 }
 
 .selection:hover, .choice:hover, .buttontarget{
