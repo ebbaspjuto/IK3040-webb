@@ -13,32 +13,31 @@
 
 
 .report-types-left button:nth-child(odd){
-    background-color: green;
+    background-color: #EDEDED;
 }
 
 .report-types-left button:nth-child(even){
-    background-color: red;
+    background-color:#f8f8f8;
 }
 
 .report-types-right button:nth-child(odd){
-    background-color: red;
+    background-color: #f8f8f8;
 }
 
 .report-types-right button:nth-child(even){
-    background-color: green;
+    background-color: #EDEDED;
 }
-
-
 
 
 .report-types-left{
-    padding-right: 10px;
-    background-color: chartreuse;
+    padding-left: 10vw;
+    background-color: green;
+
 }
 
 .report-types-right{
-    padding-left: 10px;
-    background-color:crimson;
+    padding-right: 10vw;
+    background-color: red;
     text-align: center;
 }
 
