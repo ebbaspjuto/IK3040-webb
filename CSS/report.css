@@ -8,16 +8,24 @@
 #report-types{
     display:flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .report-types-left{
+    padding-left: 100px;
+    padding-right: 5px;
     background-color: chartreuse;
+    justify-content: flex-end;
+    text-align: center;
 }
 
 .report-types-right{
+    padding-right: 100px;
+    padding-left: 5px;
     background-color:crimson;
+    text-align: center;
 }
 
 .selection{
-    
+border-radius: 6px;
 }
