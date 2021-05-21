@@ -63,8 +63,8 @@ hr:last-of-type{
 }
 
 /* style nav */
-nav{
-    padding-top: 12px;;
+#sidenav nav{
+    margin-top: 20px;
 }
 
   /* Style the sidenav links*/

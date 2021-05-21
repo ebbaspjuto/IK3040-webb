@@ -1,41 +1,64 @@
-.button-holder{
+/* style sticky buttons */
+.sticky{
+    margin-top: 17px;
+    padding: 10px 30px 10px 30px;
+    float: right;
+    flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    float: right;
+    position: sticky;
+    top: 3vh;    
 }
 
-.button-holder button:first-child{
+.sticky:first-of-type{
+    margin-right: 20px;
+}
+
+.sticky:last-of-type{
     background-color: #c2c2c2;
     color: black
 }
 
-/* button[type="sumbit"]{
-    padding: 10px 20px;
-    font-size: 1rem;
-} */
+/* style selection */
 
 #selection-container{
     width: 100%;
-    height: 400px;
+    height: 100%;
     background-color: white;
     color: black;
 }
 
-/* style selection-nav */
+.selection-flex{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    
+}
 
 #selection-types{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
 }
 
-#selection-types button{
-    font-size: 1rem;
-    padding: 10px 20px;
-    margin: 0;
-    border: 0.5px solid #f7f6f6;
-    border-radius: 0px;
-    position: left;
+#selected-choice{
+    width: 70%;
+    min-width: 70%;
+    background-color:rgb(255, 255, 255);
+}
+
+
+/* style selections-nav */
+
+.selection{
+    margin:0;
+    text-align: left;
+    padding-left: 30px;
+    border-right: 0.5px solid #BABABA;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 #selection-types button:nth-child(odd){
@@ -43,6 +66,34 @@
 }
 
 #selection-types button:nth-child(even){
-    background-color: #f8f8f8;
+    background-color: #f5f5f5;
+}
+
+/* style selected headings*/
+
+.selected-heading{
+    margin-left: 30px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* style selected choices */
+
+#choice-1, #choice-2, #choice-3, #choice-4 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+label{
+    margin-left: 5px;   
+}
+
+.choice{
+    margin: 0px;
+}
+
+input[type="date"], p{
+    display: inline;
 }
 

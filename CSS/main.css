@@ -56,7 +56,6 @@ button{
 .selection{
     padding: 9px 14px;
     border: none;
-    border-radius: 6px;
     background-color: #D1EAEF;
     font-size: 1rem;  
 }
@@ -72,8 +71,8 @@ button{
     font-size: 1rem;  
 }
 
-.choice:hover, .buttontarget{
-    background-color:#00A3B4;
+.selection:hover, .choice:hover, .buttontarget{
+    background-color:#00A3B4 !important;
     color: white;
 }
 
@@ -89,29 +88,15 @@ button{
 }
 
 
-
-/* button{
-    border: none;
-    border-radius: 6px;
-    background-color: #D1EAEF;
+/* style input date */
+.input-date{
+    padding: 7px 45px 7px 45px;
+    border-radius: 3px;
+    border: 0.5px solid #00A3B4;
+    font-size: 1rem;
 }
 
-button[type="sumbit"]{
-    background-color:  #48A0B1;
-    color: white;
+.input-date:focus{
+    background-color: #f0fcff;;
 }
 
-button:hover, .buttontarget{
-    color: white;
-    background-color: #48A0B1 !important;
-} */
-
-/* style for checkboxes */
-
-/* input[type="checkbox"]{
-    font-family: arial;
-}
-
-.testinfo input{
-    color: red;
-} */
