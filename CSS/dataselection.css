@@ -12,21 +12,20 @@
 }
 
 /* style buttons and input */
-.choose-buttons{
-    padding: 10px;
-    font-size: 0.8rem;
+.choice{
+    padding: 12px 30px;
+    font-size: 1rem;
 }
 
 #date-button{
     width: 93%;
     margin: auto;
-    padding-top: 10px;
+    margin-top: 30px;
 }
 
 #date-button button{
     justify-content: right;
 }
-
 
 .datepick-holder{
     margin-top: 10px;
@@ -39,30 +38,35 @@
 }
 
 
-/* style info */
+/* style checkboxes-holder  */
 
-#test-info-holder{
+.checkboxes > p {
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#checkboxes-holder{
     width: 75%;
     display: flex;
-   /*  flex-direction: row;
-    position: absolute; */
+    flex-direction: row;
 }
 
-.test-info{
-    margin-top: 30px;
-    margin-left: 40px;
+.checkboxes{
+    margin: 30px 40px 0px 10px;
     display: flex;
     flex-direction: column;
-
 }
 
-.test-info > input{
-    margin-right: 5px;
+.checkbox-choice{
     display: flex;
-    flex-direction: row;
-    /* display: block; */
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 8px;
+    color: black;
 }
 
+/* sumbit button */
 
 button[type="sumbit"]{
     float: right;
@@ -71,6 +75,7 @@ button[type="sumbit"]{
     font-size: 1rem;
 }
 
+/* link in sumbit button */
 a{
     text-decoration: none;
     color: white;
