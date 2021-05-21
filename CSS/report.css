@@ -1,6 +1,6 @@
 #step-one-holder{
     width: 100%;
-    height: 350px;
+    height: 270px;
     margin: auto;
     background-color: white;
 }
@@ -11,15 +11,33 @@
     padding-top: 40px;
 }
 
+
+.report-types-left button:nth-child(odd){
+    background-color: green;
+}
+
+.report-types-left button:nth-child(even){
+    background-color: red;
+}
+
+.report-types-right button:nth-child(odd){
+    background-color: red;
+}
+
+.report-types-right button:nth-child(even){
+    background-color: green;
+}
+
+
+
+
 .report-types-left{
-    padding-left: 100px;
-    padding-right: 5px;
+    padding-right: 10px;
     background-color: chartreuse;
 }
 
 .report-types-right{
-    padding-right: 100px;
-    padding-left: 5px;
+    padding-left: 10px;
     background-color:crimson;
     text-align: center;
 }
@@ -28,4 +46,11 @@
 border-radius: 6px;
 width: 20rem;
 
+}
+
+#step-two-holder{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    background-color: white;
 }
