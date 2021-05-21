@@ -15,8 +15,6 @@
     padding-left: 100px;
     padding-right: 5px;
     background-color: chartreuse;
-    justify-content: flex-end;
-    text-align: center;
 }
 
 .report-types-right{
@@ -28,4 +26,6 @@
 
 .selection{
 border-radius: 6px;
+width: 20rem;
+
 }
