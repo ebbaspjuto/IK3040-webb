@@ -1,3 +1,19 @@
-.container {
-background-color: chartreuse;
+#step-one-holder{
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    background-color: white;
+}
+
+#report-types{
+    display:flex;
+    justify-content: center;
+}
+
+.report-types-left{
+    background-color: chartreuse;
+}
+
+.report-types-right{
+    background-color:crimson;
 }
