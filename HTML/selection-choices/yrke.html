@@ -1,0 +1,124 @@
+<h2 class="selected-heading">Yrke</h2>
+<div class="a-choice">
+    <section id="occ-list">
+    <label >Sök yrke:</label></br>
+    <input type="search" id="searchbar" class="search" placeholder="Sök yrke..." onchange="searchList()">
+        
+        <div class="scroll">
+            <table class="table-list">
+                <tr>
+                    <th>Yrken</th>
+                </tr>
+                <tr>
+                    <td class="list choose-button buttontarget">Ingen</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">2D-Grafiker</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">UX-designer</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Art Director</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Controller, finanicial</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Copywriter</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Ekonomiansvarig</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Filmproducent</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Grafisk designer</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">2D-Grafiker</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">UX-designer</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Art Director</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Controller, finanicial</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Copywriter</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Ekonomiansvarig</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Filmproducent</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Grafisk designer</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">2D-Grafiker</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">UX-designer</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Art Director</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Controller, finanicial</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Copywriter</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Ekonomiansvarig</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Filmproducent</td>
+                </tr>
+                <tr>
+                    <td class="list choose-button">Grafisk designer</td>
+                </tr>
+                <tr>
+                    <td class="noValue">Finns inget yrke med det namnet...</td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+
+</div>
+
+<script>
+    document.getElementById("searchbar").addEventListener("input", searchList);
+    
+    let listElements = document.getElementsByClassName("list");
+    
+    // for(let i = 0; i < listElements.length; i++){
+    //     listElements[i].addEventListener('click', listValue)
+    // };
+
+
+    function searchList(event){
+        const inputValue = event.target.value;
+        for (let i = 0; i < listElements.length; i++){
+            const listValue = listElements[i].innerHTML;
+            const style = listElements[i].style;
+            if (listValue.toLowerCase().includes(inputValue.toLowerCase())){
+                style.display = "block";
+            } else {
+                style.display = "none";
+            }
+        }
+        
+    } 
+
+    // const listValue = document.getElementsByClassName("list")
+
+    
+</script>

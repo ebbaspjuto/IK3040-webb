@@ -76,9 +76,9 @@
     font-size: 1.2rem;
 }
 
-/* style selected choices */
+/* style för all selected choices */
 
-#choice-1, #choice-2, #choice-3, #choice-4 {
+.a-choice{
     margin-bottom: 30px;
     margin-top: 20px;
     margin-left: 30px;
@@ -87,6 +87,8 @@
 label{
     margin-left: 5px;   
 }
+
+/* style age-gender */ 
 
 .choice{
     margin: 0px;
@@ -98,6 +100,12 @@ input[type="date"], p{
 
 /* style yrke */
 
+.scroll{
+    width: 100%;
+    max-height: 50vh;
+    overflow: scroll;
+}
+
 .table-list{
     width: 65%;
     border-spacing: 0;
@@ -105,14 +113,34 @@ input[type="date"], p{
 }
 
 tr:first-child {
-    background: grey;
+    background: grey !important;
+    padding: 7px;
+    position: sticky;
+    top: 0;
 }
 
-.table-list > * {
-    color: black;
-    text-align: left;
-    font-size: 1.2rem;
-    text-indent: 10px;
+tr:nth-child(odd){
+    background-color: white;
 }
+
+tr:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+tr{
+    text-align: left;
+    text-indent: 8px;
+    font-size: 1rem;
+}
+
+td, th{
+    padding: 7px;
+    border: 0.5px solid  #BABABA;;
+}
+
+th{
+    border-radius: 6px 6px 0px 0px;
+}
+
 
 

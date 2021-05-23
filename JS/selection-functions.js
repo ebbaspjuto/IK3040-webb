@@ -1,9 +1,18 @@
-// code for reuse of sidenav
+// code for import choices 
+
+// age-gender
 
 function ageGender(){
     $('#selected-choice').load('../HTML/selection-choices/age-gender.html');
 }
 
-function app(){
-    $('#selected-choice').load('../HTML/buttons.html');
+// yrke
+
+function yrke(){
+    $('#selected-choice').load('../HTML/selection-choices/yrke.html');
 }
+
+
+// function searchList(event){
+//     console.log(event.target."")
+// }
