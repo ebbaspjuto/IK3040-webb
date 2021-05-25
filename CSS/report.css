@@ -64,3 +64,12 @@ width: 20rem;
     padding-top: 1vw;
     padding-left: 2vw;
 }
+
+/* style button */
+
+#search-organisations > button{
+    float: right;
+    margin-right: 50px;
+    font-size: 1rem; 
+    padding: 10px 40px;
+}

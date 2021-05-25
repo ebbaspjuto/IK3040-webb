@@ -77,3 +77,10 @@
 #arrow-up{
     display: none;
 }
+
+/* style button  */
+
+.button-holder >button:first-of-type{
+    background-color: #EC4444;
+    margin-right: 10px;
+}

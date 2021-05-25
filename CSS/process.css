@@ -1,3 +1,11 @@
+/* style button */
+
+.process-info-holder > button{
+    float: right;
+    margin: 20px 30px;
+    font-size: 1.3rem;
+    padding: 10px 45px;
+}
 
 /* styles for all parts */
 
@@ -24,6 +32,7 @@
     justify-content: space-evenly;
     max-height: 45vh;
     overflow-y: scroll;
+    padding-bottom: 20px;
 }
 
 #approved, #failed{
@@ -66,48 +75,4 @@
     text-indent: 40px;
 }
 
-/* style popup 2*/
 
-.popup-background{
-    background-color: rgba(255, 255, 255, 0.556);
-    display: none;
-}
-
-.popup-1-holder{
-    background-color: #525252e5;
-   /*  background-color: #f8f8f8; */
-}
-
-.popup-1-holder > h1{
-    text-align: center;
-    color: white;
-   /*  font-weight: bold; */
-}
-
-#format-holder{
-    margin: auto;
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.format-pic{
-    color: white;
-    font-size: 70px;
-}
-
-.format-button{
-    margin: 10px 18px;
-    background-color: #24242412;
-    padding: 11px 10px;
-    border-radius: 6px;
-    border: none;
-    color: rgb(226, 226, 226);
-    font-size: 1.2rem;
-}
-
-.format-button:hover{
-    background-color: #00A3B4;
-}

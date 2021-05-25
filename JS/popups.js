@@ -1,4 +1,6 @@
 
+// popups 
+
 // popup preview
 
 function preview(){
@@ -27,3 +29,14 @@ function showInfo(){
         arrowUp.style.display = "none"
     }
 };
+
+// popuo download
+
+function downloadPopup(){
+    $('#popup-2-placeholder').load('../HTML/popups/download.html');
+}
+
+function downloadHide(){
+    document.getElementById("popup-2-placeholder").innerHTML = "";
+}
+

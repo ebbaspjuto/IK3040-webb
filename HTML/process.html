@@ -18,8 +18,8 @@
   <!--sidenav ends-->
 
   <main>
-
     <section class="process-info-holder main-shadow">
+      <button type="sumbit" class="sumbit" onclick="downloadPopup()">Ladda ner</button>
       <h1 class="topheading">Resultat: <strong>Rapporttyp</strong></h1>
       <hr class=heading-underline>
       <h3>Information</h3>
@@ -28,8 +28,11 @@
     <section class="process-approved-holder main-shadow">
 
       <div id="approved">
-        <div class="result-heading"><label>Godkända (10 stycken) </label></div>
+        <div class="result-heading"><label>Godkända (13 stycken) </label></div>
         <ul class="participant-list"> 
+          <li>Namn Namnsson</li>
+          <li>Namn Namnsson</li>
+          <li>Namn Namnsson</li>
           <li>Namn Namnsson</li>
           <li>Namn Namnsson</li>
           <li>Namn Namnsson</li>
@@ -52,54 +55,18 @@
       </div>
 
     </section>
+
+    <!--pop up-->
+    <section id="popup-2-placeholder">
+    </section>
+    <!--pop up ends-->
     
     <section class="process-result-holder main-shadow">
       <h1 class="topheading">Rapport</h1>
       <hr class="heading-underline">
-      <p>Här förhandsvisas rapportens grafer och tabeller..</p>
-
     </section>
 
-  <section class="popup-background">
-
-    <section class="popup-1-holder main-shadow">
-      <h1 class="topheading"> Välj format</h1>
-
-      <div id="format-holder">
-        <!--PDF-->
-        <button type="button" class="format-button">
-          <i class="format-pic far fa-file-pdf"></i></br>
-          PDF
-        </button>
-        <!--PP-->
-        <button type="button" class="format-button">
-          <i class="format-pic far fa-file-powerpoint"></i></br>
-          Powerpoint
-        </button>
-          <!--EXCEL-->
-        <button type="button" class="format-button">
-          <i class="format-pic far fa-file-excel"></i></br>
-          Excel
-        </button>
-          <!--SKRIV UT-->
-        <button type="button" class="format-button">
-          <i class="format-pic far fa-sticky-note"></i></br>
-          Skriv ut
-        </button>
-          <!--MAIL-->
-        <button type="button" class="format-button">
-          <i class="format-pic far fa-envelope-open"></i></br>
-          E-post
-        </button>
-      </div>
-
-      <div class="button-holder">
-        <button type="sumbit" class="sumbit" onclick="processBack()">Gå tillbaka</button>
-        <button type="sumbit" class="sumbit">Ladda ner</button>
-      </div>
-    
-    </section>
-  </section>
+ 
     
 </main>
 <script src="../JS/nav-reuse.js"></script>
