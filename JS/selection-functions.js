@@ -12,7 +12,3 @@ function yrke(){
     $('#selected-choice').load('../HTML/selection-choices/yrke.html');
 }
 
-
-// function searchList(event){
-//     console.log(event.target."")
-// }
