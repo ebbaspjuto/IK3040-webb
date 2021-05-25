@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="../CSS/main.css">
   <link rel="stylesheet" href="../CSS/report.css">
+  <link rel="stylesheet" href="../CSS/selection.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
   <title>The Title</title>
@@ -44,10 +45,35 @@
 
         <div id="search-organisations"
 
-          <label >Sök yrke:</label></br>
+          <label>Sök yrke:</label></br>
           <input type="search" id="searchbar" class="search" placeholder="Sök organisation..." onchange="searchList()">
+        
+
+          <section>
+                  <table class="table-list">
+                      <tr>
+                          <th>Organisation</th>
+                          <th>Nivå</th>
+                          <th>Bransch</th>
+                      </tr>
+                      <tr>
+                          <td class="list choose-button">HPI</td>
+                          <td class="list choose-button">1</td>
+                          <td class="list choose-button">Utbildning</td>
+                      </tr>
+                      <tr>
+                          <td class="list choose-button">Digital Design & Innovation</td>
+                          <td class="list choose-button">1</td>
+                          <td class="list choose-button">Utbildning</td>
+                      </tr>
+                      
+                  </table>
+      
+          </section>
         </div>
     </section>
+
+
     
   </main>
 <!--import jQuery-->
