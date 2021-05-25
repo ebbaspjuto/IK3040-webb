@@ -1,0 +1,9 @@
+/* style age-gender (import) */ 
+
+.choice{
+    margin: 0px;
+}
+
+input[type="date"], p{
+    display: inline;
+}

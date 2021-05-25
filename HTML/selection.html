@@ -18,7 +18,7 @@
 
   <main>
         <button type="sumbit" class="sumbit sticky">Bearbeta</button>    
-        <button type="sumbit" class="sumbit sticky">Förhandsgranska</button>
+        <button type="sumbit" class="sumbit sticky" onclick="preview()">Förhandsgranska</button>
     
         <section id="selection-container" class="main-shadow">
             <h1 class="topheading">Skapa rapport: <strong>Urval</strong></h1>
@@ -57,62 +57,13 @@
     
         <!-- pop up -->
         <section id="popup-1-placeholder">
-            <section class="popup-background">
-                <!--pop up 1 start -->
-                <section id="popup-1-holder">
-                    
-                    <h1 class="topheading">Skapa rapport: <strong>Förhandsgranskning</strong></h1>
-                    <hr class="heading-underline">
-                    
-                    <div class="preview-1 main-shadow">
-                        <p><strong>Rapporttyp:</strong><i> Hälsoprofil</i></p>
-                        <hr class="heading-underline">
-                        <p><strong>Organisation:</strong><i> Företagsnamn</i></p>
-                        <hr class="heading-underline">
-                        <p><strong>Datumintervall:</strong><i> 2020-2021</i></p>
-                    </div>
-
-                    <div  class="preview-2">
-                        <h2>Urval</h2>
-                        <div class="preview-info main-shadow">
-                            <p>Urvalskategori</p>
-                            <div class="show-preview">
-                                <p><i>X urval</i></p>
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                        </div>
-
-                        <section id="show-info">
-                            <div id="spec-info">
-                                <p class="type">Urvalsrtyp (1 st):</p>
-                                <p class="type-info">- Specifikt urval</p>
-                            </div>
-                        </section>
-                    </div>
-
-                    <div  class="preview-2">
-                        <div class="preview-info main-shadow">
-                            <p>Urvalskategori</p>
-                            <div class="show-preview">
-                                <p><i>X urval</i></p>
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="button-holder">
-                        <button type="sumbit" class="sumbit">Gå tillbaka</button>
-                        <button type="sumbit" class="sumbit">Bearbeta</button>
-                    </div>
-
-                </section>
-                <!--pop up 1 end -->
-            </section>
+            
         </section>
 
     </main>
 <script src="../JS/nav-reuse.js"></script>
 <script src="../JS/buttons-functions.js"></script>
 <script src="../JS/selection-functions.js"></script>
+<script src="../JS/popups.js"></script>
 </body>
 </html>

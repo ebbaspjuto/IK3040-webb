@@ -1,0 +1,52 @@
+/* style yrke (import) */
+
+.scroll{
+    width: 100%;
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+.table-list{
+    width: 80%;
+    border-spacing: 0;
+    margin-top: 6px;
+}
+
+tr:first-child {
+    background: grey !important;
+    padding: 7px;
+    top: 0;
+    position: sticky;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+tr:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+tr{
+    text-align: left;
+    text-indent: 8px;
+    font-size: 1rem;
+}
+
+tr:hover{
+    background-color: #00A3B4;
+    color: white;
+}
+
+td, th{
+    padding: 7px;
+    border: 0.5px solid  #BABABA;;
+}
+
+th{
+    border-radius: 6px 6px 0px 0px;
+}
+
+.noValue{
+    display: none;
+}

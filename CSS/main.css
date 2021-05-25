@@ -100,3 +100,16 @@ main{
     border: 0.5px solid #00A3B4;
 }
 
+
+/* style popup background */
+
+.popup-background{
+    position: absolute;
+    top:0;
+    left:0;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100vw;
+    color: black;
+}
