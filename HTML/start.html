@@ -2,20 +2,66 @@
 <html>
 <head>
   <link rel="stylesheet" href="../CSS/main.css">
+  <link rel="stylesheet" href="../CSS/nav-reuse.css">
   <link rel="stylesheet" href="../CSS/start.css">
+  <link rel="stylesheet" href="../CSS/selection-choices/yrke.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
   <title>Start</title>
 </head>
 <body>
-    <main>
-        <section id="startview" class="main-shadow">
-            <h2 class="topheading">Välkommen</h2>
-      
-      <hr class="heading-underline">
+    <!-- Testar att lägga in nav-meny f.o.m här -->
 
+    <div id="sidenav">
+        <section class="info">
+            <h1>Plustoo Webb</h1>
+            <hr>
+            <div id="profile"></i></div>
+            <h2>Namn Namnsson</h2>
+            <hr>
+            <p class="profile-info">Kund</h3>
+                <p>Kundnamn</p>
+            </br>
+            <p class="profile-info">Databas</h3>
+                <p>Kundnamn</p>
         </section>
-    </main>
+        <nav>
+            <a href="#">Deltagare</a>
+            <a href="#">Enkätlänkar</a>
+            <a href="#">Organisationer</a>
+            <a href="#">Projekt</a>
+            <a href="report.html">Skapa rapport</a>
+            <a href="#">Registrera enkätsvar</a>
+            <a href="#">Kundinfo</a>
+            <a href="#">Inkorg</a>
+            <a href="#">Frågeformulär</a>
+            <a href="#">Logga ut</a>
+        </nav>
+    </div>
+    <!-- Till hit -->
+
+    <div class="dropdown">
+        <span class="selection">Language</span>
+            <div class="dropdown-content">
+                <button type="button" class="selection">Svenska</button>
+                <button type="button" class="selection">English</button>
+            </div>
+    </div>
+<main>
+    <section id="startview" class="main-shadow">
+        <h2 class="topheading">Välkommen!</h2>
+        <hr class="heading-underline">
+        <div id="latest-report-date">
+            <table>
+                <tr><strong>Senaste rapporter:</strong></tr>
+                <td>FlexWay | 25/5-2021</td>
+                <td>Ikea | 19/5-2021</td>
+                <td>Spotify | 12/5-2021</td>
+                <td>Kjell & Company | 29/4-2021</td>
+            </table>
+        </div>
+    </section>
+</main>
 <!--import jQuery-->
 <script src="../JS/nav-reuse.js"></script>
 </body>
