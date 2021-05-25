@@ -1,17 +1,40 @@
+/* Välj rapporttyp*/
 #step-one-holder{
     width: 100%;
-    height: 270px;
+    height: 300px;
     margin: auto;
     background-color: white;
 }
 
 #report-types{
-    display:flex;
+    display: flex;
     justify-content: center;
-    padding-top: 40px;
+    margin: 40px;
 }
 
+/* style left report div boxes  */
+.report-types-left{
+    margin: auto ;
+    padding-left: 10vw;
+    padding-right:1vw;
+    background-color: green;
 
+}
+
+/* style right report div boxes  */
+.report-types-right{
+    /*spara detta från internet 
+    width: 50%;
+    float: right;
+    padding: 20px;
+    */
+    margin: auto;
+    padding-right:10vw;
+    padding-left: 1vw;
+    background-color: red;
+}
+
+/* style buttons */
 .report-types-left button:nth-child(odd){
     background-color: #EDEDED;
 }
@@ -28,28 +51,20 @@
     background-color: #EDEDED;
 }
 
-
-.report-types-left{
-    padding-left: 10vw;
-    background-color: green;
-
-}
-
-.report-types-right{
-    padding-right: 10vw;
-    background-color: red;
-    text-align: center;
-}
-
 .selection{
 border-radius: 6px;
 width: 20rem;
 
 }
-
+/* Välj organisation*/
 #step-two-holder{
     width: 100%;
-    height: 300px;
+    height: 40vh;
     margin-top: 20px;
     background-color: white;
+}
+
+#search-organisations {
+    padding-top: 1vw;
+    padding-left: 2vw;
 }
