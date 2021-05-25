@@ -12,19 +12,6 @@ function previewBack(){
 // dropdown in preview
 
 
-
-/* function showInfo(){
-    document.getElementById("show-info").style.display="inline";
-}; */
-
-/* function showInfo(){
-    if (document.getElementById("show-info").style.display=="none"){
-        document.getElementById("show-info").style.display="inline";
-    } else {
-        document.getElementById("show-info").style.display="none";
-    }
-};
- */
 function showInfo(){
     let specInfo = document.getElementById("show-info");
     let arrowUp = document.getElementById("arrow-up");

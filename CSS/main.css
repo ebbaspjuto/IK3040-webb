@@ -6,13 +6,13 @@ html {
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     font-weight: normal;
+    overflow-x: hidden;
 }
 
 main{
     width: 75%;
     margin: auto;
-    margin-top: 5vh;
-    max-height: 80vh;
+    padding-bottom: 50px;
 }
 
 .main-shadow{
@@ -102,15 +102,3 @@ main{
 }
 
 
-/* style popup background */
-
-.popup-background{
-    position: absolute;
-    top:0;
-    left:0;
-    margin: auto;
-    background-color: rgba(0,0,0,0.5);
-    height: 100vh;
-    width: 100vw;
-    color: black;
-}

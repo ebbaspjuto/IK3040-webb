@@ -1,0 +1,39 @@
+/* style popup background */
+
+.popup-background{
+    position: absolute;
+    top:0;
+    left:0;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+}
+
+.popup-1-holder{
+    width: 60%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+
+
+
+/* style buttons in popup */
+
+.button-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sumbit{
+    padding: 12px 40px;
+}
+
+.sumbit:first-of-type{
+    background-color: #EC4444;
+    margin-right: 10px;
+}

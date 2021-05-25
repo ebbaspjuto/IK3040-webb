@@ -1,12 +1,12 @@
-
-#popup-1-holder{
-    width: 60%;
+.popup-1-holder{
     background-color: #f8f8f8;
-    margin: auto;
-    margin-top: 10vh;
 }
 
-.preview-1, .preview-2{
+.popup-background{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.preview-1, .preview-2{                                                                                          
     width: 80%;
     margin: auto;
     margin-bottom: 6px;
@@ -76,24 +76,4 @@
 
 #arrow-up{
     display: none;
-}
-
-/* style buttons in popup */
-
-.button-holder{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 30px;
-
-    padding-bottom: 30px;
-}
-
-.sumbit{
-    padding: 12px 40px;
-}
-
-.sumbit:first-of-type{
-    background-color: #EC4444;
-    margin-right: 10px;
 }
