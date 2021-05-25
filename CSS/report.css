@@ -1,3 +1,4 @@
+/* Välj rapporttyp*/
 #step-one-holder{
     width: 100%;
     height: 300px;
@@ -8,7 +9,7 @@
 #report-types{
     display: flex;
     justify-content: center;
-    padding: 40px;
+    margin: 40px;
 }
 
 /* style left report div boxes  */
@@ -55,10 +56,15 @@ border-radius: 6px;
 width: 20rem;
 
 }
-
+/* Välj organisation*/
 #step-two-holder{
     width: 100%;
     height: 40vh;
     margin-top: 20px;
     background-color: white;
+}
+
+#search-organisations {
+    padding-top: 1vw;
+    padding-left: 2vw;
 }
