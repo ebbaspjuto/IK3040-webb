@@ -1,7 +1,8 @@
 #startview{
-    width: 100%;
+    width: 85%;
     height: 55vh;
     margin-top: 20vh;
     margin-bottom: 20vh;
+    margin-left: 250px;
     background-color: white;
 }
