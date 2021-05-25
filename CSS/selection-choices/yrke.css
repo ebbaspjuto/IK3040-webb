@@ -7,7 +7,9 @@
 }
 
 .table-list{
-    width: 80%;
+    /* Här under har jag ändrat / Albin */
+    width: 100%;
+    padding-right: 4vw;
     border-spacing: 0;
     margin-top: 6px;
 }

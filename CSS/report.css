@@ -14,48 +14,36 @@
 
 /* style left report div boxes  */
 .report-types-left{
-/* ut
-    padding-left: 10vw;
-    */
     width:49%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-color: green;
-
+    background-color:none;
 }
 
 /* style right report div boxes  */
 .report-types-right{
-    /*spara detta från internet 
-    width: 50%;
-    float: right;
-    padding: 20px;
-    */
-/* ut
-    padding-right:10vw;
-    */
     width:49%;
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color:none;
 }
 
 /* style buttons */
 .report-types-left button:nth-child(odd){
-    background-color: #EDEDED;
-}
-
-.report-types-left button:nth-child(even){
-    background-color:#f8f8f8;
-}
-
-.report-types-right button:nth-child(odd){
     background-color: #f8f8f8;
 }
 
-.report-types-right button:nth-child(even){
+.report-types-left button:nth-child(even){
+    background-color:#EDEDED;
+}
+
+.report-types-right button:nth-child(odd){
     background-color: #EDEDED;
+}
+
+.report-types-right button:nth-child(even){
+    background-color: #f8f8f8;
 }
 
 .selection{
@@ -72,6 +60,7 @@ width: 20rem;
 }
 
 #search-organisations {
+    width: 100%;
     padding-top: 1vw;
     padding-left: 2vw;
 }
