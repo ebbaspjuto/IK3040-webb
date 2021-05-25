@@ -12,6 +12,7 @@ main{
     width: 75%;
     margin: auto;
     margin-top: 5vh;
+    max-height: 80vh;
 }
 
 .main-shadow{

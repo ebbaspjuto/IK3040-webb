@@ -14,8 +14,14 @@
     z-index: 1;
     background-color: #383E46;
     overflow-x: hidden;
+    overflow-y: hidden;
     display: none;
+
 }
+
+#sidenav::-webkit-scrollbar {
+    display: none;
+  }
   
     /* style top-info */
 .info{
