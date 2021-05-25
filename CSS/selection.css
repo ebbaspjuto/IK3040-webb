@@ -1,3 +1,4 @@
+
 /* style sticky buttons */
 .sticky{
     margin-top: 17px;
@@ -151,7 +152,6 @@ th{
     display: none;
 }
 
-
 /* css till pop up num 1 */
 
 .popup-background{
@@ -160,18 +160,17 @@ th{
     left:0;
     margin: auto;
     background-color: rgba(0,0,0,0.5);
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     color: black;
-
+    display:n
 }
 
-.popup-holder{
+#popup-1-holder{
     width: 60%;
-    height: 70%;
     background-color: #f8f8f8;
     margin: auto;
-    margin-top: 12vh;
+    margin-top: 10vh;
 }
 
 .preview-1, .preview-2{
@@ -237,4 +236,25 @@ th{
     flex-direction: row;
     align-content: space-between;
     font-size: 0.9rem;
+   
 }
+
+/* style buttons in popup */
+
+.button-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sumbit{
+    padding: 12px 40px;
+}
+
+.sumbit:first-of-type{
+    background-color: #EC4444;
+    margin-right: 7px;
+}
+
