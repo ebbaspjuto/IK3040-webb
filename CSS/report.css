@@ -8,15 +8,19 @@
 
 #report-types{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 40px;
 }
 
 /* style left report div boxes  */
 .report-types-left{
-    margin: auto ;
+/* ut
     padding-left: 10vw;
-    padding-right:1vw;
+    */
+    width:49%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     background-color: green;
 
 }
@@ -28,9 +32,12 @@
     float: right;
     padding: 20px;
     */
-    margin: auto;
+/* ut
     padding-right:10vw;
-    padding-left: 1vw;
+    */
+    width:49%;
+    display: flex;
+    flex-direction: column;
     background-color: red;
 }
 
