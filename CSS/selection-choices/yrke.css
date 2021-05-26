@@ -35,6 +35,10 @@ tr{
     font-size: 1rem;
 }
 
+tr:hover:first-child{
+    color: black;
+}
+
 tr:hover{
     background-color: #00A3B4;
     color: white;
