@@ -1,3 +1,7 @@
+#sidenav{
+  display: inline;
+}
+
 #latest-report-date {
     width: 100%;
     padding-top: 1vw;

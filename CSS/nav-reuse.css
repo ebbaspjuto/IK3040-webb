@@ -15,8 +15,7 @@
     background-color: #383E46;
     overflow-x: hidden;
     overflow-y: hidden;
-    display: none;
-
+    display:none;
 }
 
 #sidenav::-webkit-scrollbar {
