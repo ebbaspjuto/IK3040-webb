@@ -21,9 +21,7 @@
       <hr class="heading-underline">
 
       <div class="button-holder">
-        <button type="button" class="choice choose-buttons">Datumintervall</button>
-        <button type="button" class="choice choose-buttons">Test inom projekt</button>
-        <button type="button" class="choice choose-buttons">Testnummer från samtliga tester</button>
+        <p>Välj datumintervall för test:</p>
       </div>
       
       <div id="date-button">
@@ -38,11 +36,11 @@
             <p>Test gjorda inom datumintervall:</p>
             
             <label class="checkbox-choice">Testtillfälle 1
-              <input type="checkbox" checked="checked">
+              <input type="radio" name="testday">
             </label>
             
             <label class="checkbox-choice">Testtillfälle 2
-              <input type="checkbox" checked="checked">
+              <input type="radio" name="testday">
             </label>
 
           </div>
@@ -51,13 +49,11 @@
             <p>Testnummer från deltagares samtliga tester:</p>
 
             <label class="checkbox-choice">Test nummer 1
-              <input type="checkbox" checked="checked">
-              <span class="checkmark"></span>
-            </label>
+            <input type="radio" name="testnumber">
+            </label> 
             
             <label class="checkbox-choice">Test nummer 2
-              <input type="checkbox" checked="checked">
-              <span class="checkmark"></span>
+              <input type="radio" name="testnumber">
             </label>
 
 
