@@ -22,13 +22,8 @@
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-<<<<<<< HEAD
-    padding: 0px;
-    z-index: 1;
-=======
     padding: 10px;
     display: none;
->>>>>>> ad2523dac088026e3510773f132f28dcc5135072
   }
   
 .dropdown-content > button{

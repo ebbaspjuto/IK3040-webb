@@ -28,6 +28,7 @@
     height: 100%;
     background-color: white;
     color: black;
+    position: relative;
 }
 
 .selection-flex{
@@ -90,3 +91,32 @@ label{
     margin-left: 5px;   
 }
 
+.save{
+    position: absolute;
+    bottom: 0;
+}
+
+.save{
+    display: flex;
+    position: absolute;
+    width: 98%;
+    justify-content: flex-end;
+    align-items: center;
+    bottom: 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: rgb(78, 78, 78);
+}
+
+#savetext{
+    padding-left: 7px;
+}
+
+.saveRotate{
+    transform: rotate(360deg);
+    -webkit-transition: -webkit-transform 2.0s, color 5.0s, font-size 1.0s;
+    -moz-transition: -moz-transform 2.0s, color 5.0s, font-size 1.0s;
+-ms-transition: -ms-transform 2.0s, color 5.0s, font-size 1.0s;
+-o-transition: -o-transform 2.0s, color 5.0s, font-size 1.0s;
+transition: transform 2.0s, color 5.0s, font-size 1.0s;
+}
