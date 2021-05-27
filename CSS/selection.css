@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     position: sticky;
     top: 3vh;    
+    z-index: 2;
 }
 
 .sticky:first-of-type{
