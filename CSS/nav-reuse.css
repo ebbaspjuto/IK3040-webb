@@ -14,6 +14,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     display:none;
+    font-family: 'Varela Round', sans-serif;
 }
 
 #sidenav::-webkit-scrollbar {
@@ -66,26 +67,67 @@ p{
 }
 
 /* style nav */
-#sidenav nav{
+#nav-options{
+    width: 99%;
     margin-top: 20px;
 }
 
-  /* Style the sidenav links*/
-#sidenav > ul > a{
+ 
+/* style options in nav */
+#nav-options > hr{
+    width: 70%;
+}
+
+.button-nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dropdown-btn{
+    font-size: 2rem;
     padding: 14px 0px 14px 35px;
-    text-decoration: none;
     font-size: 16px;
-    font-family: 'Nunito', sans-serif;
-    color: #C2C7CA;
-    display: block;
-    border: 0.5px solid #1E252B;
+    background-color: transparent;
+    border: 0.7px solid #1e252b;
+    color: white;
     width:100%;
     text-align: left;
-    cursor: pointer;
+    font-size: 18px;
 }
-  
-  /* On mouse-over */
-#sidenav > ul a:hover{
-    color: #fff;
+
+#arrow{
+    color: white;
+    float: right;
+    margin-right: 25px;
+}
+
+.dropdown-btn:hover, .dropdown-links > a:hover{
     background-color: #00A3B4;
+}
+
+.dropdown-links{
+    flex-direction: column;
+    text-indent: 20px;
+    font-size: 17px;
+    color: white;
+    display: none;
+}
+
+.dropdown-links > a{
+    padding: 14px 0px 14px 35px;
+    border: 0.7px solid #1e252b;
+}
+
+/* style log out */
+.log-out{
+    background-color: #f8f8f8;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 40px;
+    font-size: 0.9rem;
+    align-self: flex-end;
+    margin-top: 20px;
 }

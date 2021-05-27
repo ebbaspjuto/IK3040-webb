@@ -34,15 +34,41 @@
                 <a href="#">Frågeformulär</a>
                 <a href="#">Logga ut</a>
             </ul> -->
-            <nav id="nav-options">
-                <div class="dropdown-1">
-                    <button class="menu-selection" onclick="()">Dropdown<i class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content" id="myDropdown">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div> 
-                </div>
+
+            <!--skapa rapport-knapp-->
+            <hr>
+            <div class="button-nav"><a href="report.html"><button type="submit" class="sumbit">Skapa rapport</button></a></div>
+            <nav id="nav-options">   
+                <section class="dropdown-holder">
+                    <!--dropdown 1-->
+                    <button type="menu" class="dropdown-btn" onclick="displayDropdown(event)">Registrera
+                        <i class="fas fa-chevron-down" id="arrow"></i></i></button>
+                        <div class="dropdown-links">
+                            <a>Organisationer</a>
+                            <a>Projekt</a>
+                            <a>Deltagare</a>
+                        </div>
+                </section>
+                <section class="dropdown-holder">
+                    <!--dropdown 2-->
+                    <button type="menu" class="dropdown-btn" onclick="displayDropdown(event)">Information
+                        <i class="fas fa-chevron-down" id="arrow"></i></i></button>
+                        <div class="dropdown-links">
+                            <a>Kundinfo</a>
+                            <a>Inkorg</a>
+                        </div>
+                </section>
+                <section class="dropdown-holder">
+                    <!--dropdown 3-->
+                    <button type="menu" class="dropdown-btn" onclick="displayDropdown(event)">Datainsamling
+                        <i class="fas fa-chevron-down" id="arrow"></i></i></button>
+                        <div class="dropdown-links">
+                            <a>Enkätlänkar</a>
+                            <a>Registrera enkätsvar</a>
+                            <a>Frågeformulär</a>
+                        </div>
+                </section>
+                <div class="button-nav"><button type="submit" class="log-out">Logga ut</button></a></div>
             </nav>
             
 
