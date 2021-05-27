@@ -71,7 +71,7 @@ p{
 }
 
   /* Style the sidenav links*/
-#sidenav a{
+#sidenav > ul > a{
     padding: 14px 0px 14px 35px;
     text-decoration: none;
     font-size: 16px;
@@ -85,7 +85,7 @@ p{
 }
   
   /* On mouse-over */
-#sidenav a:hover{
+#sidenav > ul a:hover{
     color: #fff;
     background-color: #00A3B4;
 }

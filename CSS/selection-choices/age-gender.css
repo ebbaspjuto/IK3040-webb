@@ -7,3 +7,9 @@
 input[type="date"], p{
     display: inline;
 }
+
+.info-sel{
+    margin-left: 20px;
+    font-size: 0.9rem;
+    color: grey;
+}
