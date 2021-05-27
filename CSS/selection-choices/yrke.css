@@ -56,3 +56,10 @@ th{
 .noValue{
     display: none;
 }
+
+.info-sel{
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: grey;
+}
