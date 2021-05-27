@@ -61,6 +61,9 @@ main{
 .selection:hover, .choice:hover, .buttontarget{
     background-color:#00A3B4 !important;
     color: white;
+}
+
+button{
     cursor: pointer;
 }
 
