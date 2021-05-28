@@ -111,3 +111,7 @@ a{
     font-size: inherit;
     text-decoration: none;
 }
+
+th{
+    color: white;
+}
