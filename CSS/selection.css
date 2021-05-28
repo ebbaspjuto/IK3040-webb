@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     position: sticky;
     top: 3vh;    
-    z-index: 2;
+    z-index: 1;
 }
 
 .sticky:first-of-type{
@@ -121,3 +121,4 @@ label{
 -o-transition: -o-transform 2.0s, color 5.0s, font-size 1.0s;
 transition: transform 2.0s, color 5.0s, font-size 1.0s;
 }
+
