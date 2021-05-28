@@ -33,31 +33,30 @@
         </div>
 
         <section id="checkboxes-holder">
-          <div class="checkboxes">
-            <p>Test gjorda inom datumintervall:</p>
+          <div class="checkboxes-1">
             
-            <label class="checkbox-choice">Testtillfälle 1
-              <input type="radio" name="testday">
-            </label>
-            
-            <label class="checkbox-choice">Testtillfälle 2
-              <input type="radio" name="testday">
-            </label>
+            <button class="selection choose-button" onclick="testDate()">Test gjorda inom datumintervall:</button>
+            <div class="choices" id="test-date" >
+              <label class="checkbox-choice">Testtillfälle 1
+                <input type="radio" name="testday" onclick="testDate()">
+              </label>
+              
+              <label class="checkbox-choice">Testtillfälle 2
+                <input type="radio" name="testday" onclick="testDate()">
+              </label>
 
+              <label class="checkbox-choice">Testtillfälle 3
+                <input type="radio" name="testday" onclick="testDate()">
+              </label>
+            </div>
           </div>
 
-          <div class="checkboxes">
-            <p>Testnummer från deltagares samtliga tester:</p>
-
-            <label class="checkbox-choice">Test nummer 1
-            <input type="radio" name="testnumber">
-            </label> 
-            
-            <label class="checkbox-choice">Test nummer 2
-              <input type="radio" name="testnumber">
-            </label>
-
-
+          <div class="checkboxes-2">
+            <button  class="selection choose-button" onclick="testNumber()">Testnummer från samtliga tester:</button>
+            <div class="choices" id="test-number">
+              <label class="checkbox-choice">Valbara testnummer: 0-100</label>
+              <input class="input-age" type="number" name="testnumber" onclick="testNumber()">
+            </div>
           </div>
         </section>
         

@@ -1,13 +1,13 @@
 // functions buttons
 
-const CHOOSE_BUTTON = "choose-button";
 
 
 // all buttons
 const buttons = document.getElementsByTagName("button");
 
 // choose one button
-const chooseButtons = document.getElementsByClassName(CHOOSE_BUTTON)
+const CHOOSE_BUTTON = "choose-button";
+const chooseButtons = document.getElementsByClassName(CHOOSE_BUTTON);
 
 
 
@@ -29,4 +29,17 @@ function buttonStepOne(event){
     }
 };
 
+// buttons on pick-date / testnumber / testdate
 
+let testDateChoices = document.getElementById("test-date");
+let testNumberChoices = document.getElementById("test-number");
+
+function testDate(){
+    testDateChoices.style.display = "block";
+    testNumberChoices.style.display = "none";
+}
+
+function testNumber(){
+    testDateChoices.style.display = "none";
+    testNumberChoices.style.display = "block";
+}

@@ -15,7 +15,7 @@
 }
 
 tr:first-child {
-    background: grey !important;
+    background: #b3b3b3 !important;
     padding: 7px;
     top: 0;
     position: sticky;
@@ -49,8 +49,11 @@ td, th{
     border: 0.5px solid  #BABABA;;
 }
 
-th{
-    border-radius: 6px 6px 0px 0px;
+tr:first-of-type{
+    border-radius: 6px 0px 0px 0px;
+}
+th:last-of-type{
+    border-radius: 0px 6px 0px 0px;
 }
 
 .noValue{
