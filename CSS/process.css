@@ -75,8 +75,18 @@
     text-indent: 40px;
 }
 
-#graphpicture img {
+#graphpicture img{
 width: 65vw;
 height: 50vh;
 padding-top: 10px;
+}
+
+#godkänd{
+    display: inline-block;
+    margin-left: 9vw;
+}
+
+#underkänd{
+    display: inline-block;
+    margin-left:16vw;
 }
