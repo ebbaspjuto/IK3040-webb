@@ -2,14 +2,18 @@
     display: inline !important;
 }
 
+.fas {
+    display: none;
+}
+
 /* Language dropdown menu */
 
 .dropdown{
     width: 100%;
-    margin: auto;
     display: flex;
     justify-content: flex-end;
     position:relative;
+    margin-top: -70px;
 }
 
 .selection-heading{
@@ -39,10 +43,20 @@
 /* style content */
 #startview{
     width: 85%;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 150px;
     background-color: white;
     padding-bottom: 15px;
+}
+
+#latest-news{
+    width: 85%;
+    height: 30vh;
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color: white;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 .last-reports-holder{
