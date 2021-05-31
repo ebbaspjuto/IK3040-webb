@@ -2,8 +2,9 @@
 <html>
 <head>
   <link rel="stylesheet" href="../CSS/main.css">
+  <link rel="stylesheet" href="../CSS/index.css">
+  <link rel="stylesheet" href="../CSS/selection-choices/yrke.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
   
   <title>The Title</title>
 </head>
@@ -16,10 +17,41 @@
   <!--sidenav ends-->
 
   <main>
-    
-  </main>
-<!--import jQuery-->
 
+    <div class="dropdown">
+      <span class="selection">Language</span>
+      <div class="dropdown-content">
+        <button type="button" class="selection">Svenska</button>
+        <button type="button" class="selection">English</button>
+      </div>
+    </div>
+
+    <section id="startview" class="main-shadow">
+      <h2 class="topheading">Välkommen!</h2>
+      <hr class="heading-underline">
+      <div class=last-reports-holder>
+        <table class="table-list">
+          <tr><th>Senaste rapporterna:</th></tr>
+          <tr><td>FlexWay | 25/5-2021</td></tr>
+          <tr><td>Ikea | 19/5-2021</td></tr>
+          <tr><td>Spotify | 12/5-2021</td></tr>
+          <tr><td>Kjell & Company | 29/4-2021</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="latest-news" class="main-shadow">
+      <div class=last-reports-holder>
+        <table class="table-list">
+          <tr><th>Nytt från HPI:</th></tr>
+          <tr><td>Tillägg av nya kategorival | 28/5-2021</td></tr>
+          <tr><td>Uppdatering av system | 14/4-2021</td></tr>
+        </table>
+      </div>
+
+    </section>
+   
+  </main>
 <script src="../JS/nav-reuse.js"></script>
 </body>
 </html>

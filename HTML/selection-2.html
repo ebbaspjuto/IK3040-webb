@@ -6,7 +6,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com"> 
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-  <title>The Title</title>
+  <title>Skapa rapport</title>
 </head>
 
 <body>
@@ -21,7 +21,6 @@
             <hr class="heading-underline">
             <p class="label">Välj datumintervall för test: *</p>
         
-        
             <div id="date-button">
                 <div class="datepick-holder">
                     <input type="date" title="from-date" class="input-date" id="dateTo" onchange="selectDate(event)">
@@ -30,39 +29,38 @@
                 </div>
 
                 <section id="checkboxes-holder">
-                        <div class="checkboxes-1">
-                        <button class="selection choose-button disable" id="button-date">Test gjorda inom datumintervall:</button>
-                            <div class="choices" id="test-date">
+                    <div class="checkboxes-1">
+                    <button class="selection choose-button disable" id="button-date">Test gjorda inom datumintervall:</button>
+                        <div class="choices" id="test-date">
                             <label class="checkbox-choice">Testtillfälle 1
-                            <input type="radio" name="testday">
+                                <input type="radio" name="testday">
                             </label>
-                    
                             <label class="checkbox-choice">Testtillfälle 2
-                            <input type="radio" name="testday">
+                                <input type="radio" name="testday">
                             </label>
-
                             <label class="checkbox-choice">Testtillfälle 3
-                            <input type="radio" name="testday">
+                                <input type="radio" name="testday">
                             </label>
                         </div>
                     </div>
 
                     <div class="checkboxes-2">
                         <button class="selection choose-button disable" id="button-number">Testnummer från samtliga tester:</button>
-                        <div class="choices" id="test-number">
+                            <div class="choices" id="test-number">
                             <label class="checkbox-choice">Valbara testnummer: 0-100</label>
                             <input class="input-age" type="number" name="testnumber">
                         </div>
                     </div>
                 </section>
             </div>
-        <p class="label">* = obligatoriskt val.</p>
-        <button type="sumbit" class="choose-buttons sumbit disable"><a href="selection.html">Vidare till urval</a></button>
+            <p class="label">* = obligatoriskt val.</p>
+            <button type="sumbit" class="choose-buttons sumbit disable"><a href="selection-3.html">Vidare till urval</a></button>
         </section>
     </main>
+
 <script src="../JS/nav-reuse.js"></script>
 <script src="../JS/buttons-functions.js"></script>
 <script src="../JS/popups.js"></script>
-<script src="../JS/paths.js"></script>
+
 </body>
 </html>
