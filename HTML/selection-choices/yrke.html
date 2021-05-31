@@ -1,5 +1,6 @@
 
   <link rel="stylesheet" href="../CSS/selection-choices/yrke.css">
+  <link rel="stylesheet" href="../CSS/main.css">
 
 <h2 class="selected-heading">Yrke</h2>
 <div class="a-choice">
@@ -13,79 +14,79 @@
                     <th>Yrken</th>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Ingen</td>
+                    <td class="list">Ingen</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">2D-Grafiker</td>
+                    <td class="list">2D-Grafiker</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">UX-designer</td>
+                    <td class="list">UX-designer</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Art Director</td>
+                    <td class="list">Art Director</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Ekonomiansvrig</td>
+                    <td class="list">Ekonomiansvrig</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Copywriter</td>
+                    <td class="list">Copywriter</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Ekonomiansvarig</td>
+                    <td class="list">Ekonomiansvarig</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Filmproducent</td>
+                    <td class="list">Filmproducent</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Grafisk designer</td>
+                    <td class="list">Grafisk designer</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Snickarer</td>
+                    <td class="list">Snickarer</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Elektriker</td>
+                    <td class="list">Elektriker</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Hovmästare</td>
+                    <td class="list">Hovmästare</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">HR-ansvarig</td>
+                    <td class="list">HR-ansvarig</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Företagssköterska</td>
+                    <td class="list">Företagssköterska</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Rörmockare</td>
+                    <td class="list">Rörmockare</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Sjuksköterska</td>
+                    <td class="list">Sjuksköterska</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Läkare</td>
+                    <td class="list">Läkare</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Städpersonal</td>
+                    <td class="list">Städpersonal</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Barrista</td>
+                    <td class="list">Barrista</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Säljare</td>
+                    <td class="list">Säljare</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Systemutvecklare</td>
+                    <td class="list">Systemutvecklare</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Programmerare</td>
+                    <td class="list">Programmerare</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Fullstackutvecklare</td>
+                    <td class="list">Fullstackutvecklare</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Webbdesigner</td>
+                    <td class="list">Webbdesigner</td>
                 </tr>
                 <tr>
-                    <td class="list choose-button">Artist</td>
+                    <td class="list">Artist</td>
                 </tr>
                 <tr>
                     <td class="noValue">Finns inget yrke med det namnet...</td>
@@ -98,14 +99,12 @@
 </div>
 
 <script>
+
+    //searchbar
     document.getElementById("searchbar").addEventListener("input", searchList);
     
     let listElements = document.getElementsByClassName("list");
     let noValue = document.getElementsByClassName("noValue");
-    
-    // for(let i = 0; i < listElements.length; i++){
-    //     listElements[i].addEventListener('click', listValue)
-    // };
 
 
     function searchList(event){
@@ -119,10 +118,28 @@
                 style.display = "none";
             } i
         }
-        
     } 
 
-    // const listValue = document.getElementsByClassName("list")
-
+    // let jobTitles = getElementsByTagName("tr");
     
+    for (let i = 0; i < listElements.length; i++){
+        listElements[i].addEventListener("click", chooseTitles);
+    }
+
+    function chooseTitles(event){
+        const title = event.target.classList;
+        if (title.contains("buttontarget")){
+            title.remove("buttontarget");
+        } else {
+            title.add("buttontarget");
+        }
+            
+    }
+    //      if (listElement.classList.contains("buttontarget")){
+    //         listElement.classList.remove("buttontarget")
+    //     } else {
+    //         listElement.classList.add = ("buttontarget");
+    //     }
+    // }
+
 </script>

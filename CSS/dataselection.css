@@ -5,11 +5,20 @@
     background-color:white;
 }
 
-.button-holder{
-    width: 95%;
-    margin: auto;
-    margin-top: 15px;
+
+.label{
+    text-indent: 30px;
+    font-size: 1rem;
+    margin-top: 25px;
 }
+
+.label:last-of-type{
+
+    font-style: italic;
+    color: grey;
+    margin-top: 50px;
+}
+
 
 /* style buttons and input */
 
@@ -58,6 +67,7 @@
 .choices{
     width: 90%;
     margin: auto;
+    display: none;
 }
 
 .checkbox-choice{
@@ -81,6 +91,12 @@
     font-size: 1rem;
 }
 
+.disable{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    opacity: 0.5;
+}
+
 /* sumbit button */
 
 button[type="sumbit"]{
@@ -90,5 +106,5 @@ button[type="sumbit"]{
     font-size: 1.2rem;
 }
 
-/* link in sumbit button */
+
 

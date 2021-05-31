@@ -15,58 +15,51 @@
   </div>
   <!--sidenav ends-->
 
-  <main>
-
-    <section id="step-one-holder" class="main-shadow">
-      <h2 class="topheading">Skapa rapport</h2>
-      <hr class="heading-underline">
-
-      <div class="button-holder">
-        <p>Välj datumintervall för test:</p>
-      </div>
-      
-      <div id="date-button">
-        <div class="datepick-holder">
-          <input type="date" title="from-date" class="input-date">
-          <p>-</p>
-          <input type="date" title="to-date" class="input-date">
-        </div>
-
-        <section id="checkboxes-holder">
-          <div class="checkboxes-1">
-            
-            <button class="selection choose-button" onclick="testDate()">Test gjorda inom datumintervall:</button>
-            <div class="choices" id="test-date" >
-              <label class="checkbox-choice">Testtillfälle 1
-                <input type="radio" name="testday" onclick="testDate()">
-              </label>
-              
-              <label class="checkbox-choice">Testtillfälle 2
-                <input type="radio" name="testday" onclick="testDate()">
-              </label>
-
-              <label class="checkbox-choice">Testtillfälle 3
-                <input type="radio" name="testday" onclick="testDate()">
-              </label>
-            </div>
-          </div>
-
-          <div class="checkboxes-2">
-            <button  class="selection choose-button" onclick="testNumber()">Testnummer från samtliga tester:</button>
-            <div class="choices" id="test-number">
-              <label class="checkbox-choice">Valbara testnummer: 0-100</label>
-              <input class="input-age" type="number" name="testnumber" onclick="testNumber()">
-            </div>
-          </div>
-        </section>
+    <main>
+        <section id="step-one-holder" class="main-shadow">
+            <h2 class="topheading">Skapa rapport</h2>
+            <hr class="heading-underline">
+            <p class="label">Välj datumintervall för test: *</p>
         
+        
+            <div id="date-button">
+                <div class="datepick-holder">
+                    <input type="date" title="from-date" class="input-date" id="dateTo" onchange="selectDate(event)">
+                    <p>-</p>
+                    <input type="date" title="to-date" class="input-date" id="dateFrom" onchange="selectDate(event)">
+                </div>
 
-      </div>
-     <button type="sumbit" class="choose-buttons sumbit"><a href="selection.html">Vidare till urval</a></button>
+                <section id="checkboxes-holder">
+                        <div class="checkboxes-1">
+                        <button class="selection choose-button disable" id="button-date">Test gjorda inom datumintervall:</button>
+                            <div class="choices" id="test-date">
+                            <label class="checkbox-choice">Testtillfälle 1
+                            <input type="radio" name="testday">
+                            </label>
+                    
+                            <label class="checkbox-choice">Testtillfälle 2
+                            <input type="radio" name="testday">
+                            </label>
 
-    </section>
+                            <label class="checkbox-choice">Testtillfälle 3
+                            <input type="radio" name="testday">
+                            </label>
+                        </div>
+                    </div>
 
-  </main>
+                    <div class="checkboxes-2">
+                        <button class="selection choose-button disable" id="button-number">Testnummer från samtliga tester:</button>
+                        <div class="choices" id="test-number">
+                            <label class="checkbox-choice">Valbara testnummer: 0-100</label>
+                            <input class="input-age" type="number" name="testnumber">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        <p class="label">* = obligatoriskt val.</p>
+        <button type="sumbit" class="choose-buttons sumbit disable"><a href="selection.html">Vidare till urval</a></button>
+        </section>
+    </main>
 <script src="../JS/nav-reuse.js"></script>
 <script src="../JS/buttons-functions.js"></script>
 <script src="../JS/popups.js"></script>
