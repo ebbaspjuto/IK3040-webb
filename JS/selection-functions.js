@@ -9,7 +9,9 @@ function ageGender(){
 // yrke
 
 function yrke(){
-    $('#selected-choice').load('../HTML/selection-choices/yrke.html');
+    if(!document.getElementById("searchbar")){
+        $('#selected-choice').load('../HTML/selection-choices/yrke.html');
+    }
 }
 
 // save
